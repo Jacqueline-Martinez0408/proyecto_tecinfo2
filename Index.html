@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Jacqueline Martinez</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #a0522d; /* Café */
+            color: #fff; /* Texto blanco para contraste */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .marquee-container {
+            background-color: #f5f5dc; /* Beige para la marquesina */
+            color: #333; /* Texto negro o gris oscuro para contraste en beige */
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            width: 100%; /* O un ancho específico */
+            box-sizing: border-box;
+            overflow: hidden; /* Oculta el desbordamiento del texto */
+        }
+
+        marquee {
+            width: 100%; /* Asegura que la marquesina ocupe el contenedor */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente para el contenido */
+            color: #333;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .info {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #a0522d; /* Café al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            Bienvenido a mi portafolio
+        </marquee>
+    </div>
+    <div class="container">
+        <h1>Mi Portafolio</h1>
+        <div class="info">
+            <p><strong>Jacqueline Martinez</strong></p>
+            <p>Campus UVM Lomas Verdes</p>
+            <p>Docente: Betty Mora</p>
+        </div>
+        <img src="C:\Users\usuariocc10\Desktop\Mi_portafolio_JS\descarga.jpg" alt="Tu Imagen" class="profile-image">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Actividad 1</a></li>
+                <li><a href="#">Actividad 2</a></li>
+                <li><a href="#">Actividad 3</a></li>
+                <li><a href="#">Actividad 4</a></li>
+                <li><a href="#">Actividad 5</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
