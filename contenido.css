@@ -23,3 +23,19 @@ li {
     margin: 10px 0;
     font-size: 18px;
 }
+
+/* Estilo del botón */
+.boton {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: darkorchid;
+}
